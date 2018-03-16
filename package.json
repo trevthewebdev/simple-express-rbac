@@ -1,0 +1,23 @@
+{
+  "name": "rbac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "auth.js",
+  "scripts": {
+    "start": "nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "lodash": "^4.17.5",
+    "q": "^1.5.1",
+    "rbac": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}
